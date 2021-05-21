@@ -21,4 +21,4 @@ int main()
 
 	std::cout << dupWord << std::endl;
 	return 0;
-}
+
