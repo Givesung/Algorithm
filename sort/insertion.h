@@ -1,3 +1,4 @@
+// loop invariant code
 void insertion(std::vector<int> &e)
 {
     for(int i=0; i<e.size(); ++i)
