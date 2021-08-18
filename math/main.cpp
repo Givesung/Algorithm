@@ -1,9 +1,11 @@
-#include "times_table.h"
+#include "num_less_than_x.h"
 
 int main()
 {
-    int N = 3;
-    times_table(N);
+    int n, x;
+    std::cin >> n >> x;
+
+    less_than(n, x);
 
     return 0;
 }
