@@ -1,10 +1,16 @@
-#include "multiply_devlop.h"
+#include "average.h"
+
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
 
 int main()
 {
-    int first_num, second_num;
-    std::cin >> first_num >> second_num;
-    mult(first_num, second_num);
-
+    int num;
+    double result;
+    std::cin >> num;
+    result = avg(num);
+        
+    std::cout << result;
     return 0;
 }
