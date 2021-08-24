@@ -1,16 +1,14 @@
-#include "average.h"
+#include "prime_num.h"
 
 #include <cstdio>
+#include <iostream>
 #include <cstdlib>
 #include <cmath>
 
 int main()
 {
     int num;
-    double result;
     std::cin >> num;
-    result = avg(num);
-        
-    std::cout << result;
+    prime_num(num);
     return 0;
 }
