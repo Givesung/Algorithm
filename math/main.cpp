@@ -1,4 +1,4 @@
-#include "prime_num.h"
+#include "break_even_point.h"
 
 #include <cstdio>
 #include <iostream>
@@ -7,8 +7,9 @@
 
 int main()
 {
-    int num;
-    std::cin >> num;
-    prime_num(num);
+    int num, a, b, c;
+    std::cin >> a >> b >> c;
+    num = break_even_point(a, b, c);
+    std::cout << num << std::endl;
     return 0;
 }
