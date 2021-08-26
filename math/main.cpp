@@ -1,4 +1,4 @@
-#include "break_even_point.h"
+#include "snail_climb.h"
 
 #include <cstdio>
 #include <iostream>
@@ -9,7 +9,8 @@ int main()
 {
     int num, a, b, c;
     std::cin >> a >> b >> c;
-    num = break_even_point(a, b, c);
+
+    num = climb(a, b ,c);
     std::cout << num << std::endl;
     return 0;
 }
