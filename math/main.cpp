@@ -1,4 +1,4 @@
-#include "snail_climb.h"
+#include "prime_num2.h"
 
 #include <cstdio>
 #include <iostream>
@@ -8,9 +8,9 @@
 int main()
 {
     int num, a, b, c;
-    std::cin >> a >> b >> c;
+    std::cin >> a >> b;
 
-    num = climb(a, b ,c);
+    num = prime_num(a, b);
     std::cout << num << std::endl;
     return 0;
 }
